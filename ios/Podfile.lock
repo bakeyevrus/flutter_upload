@@ -1,0 +1,79 @@
+PODS:
+  - Alamofire (4.9.1)
+  - DKImagePickerController/Core (4.3.2):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.2)
+  - DKImagePickerController/PhotoGallery (4.3.2):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.2)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_uploader (1.2.0):
+    - Alamofire (= 4.9.1)
+    - Flutter
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SwiftyGif (5.4.2)
+
+DEPENDENCIES:
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_uploader (from `.symlinks/plugins/flutter_uploader/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DKImagePickerController
+    - DKPhotoGallery
+    - SDWebImage
+    - SwiftyGif
+
+EXTERNAL SOURCES:
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  Flutter:
+    :path: Flutter
+  flutter_uploader:
+    :path: ".symlinks/plugins/flutter_uploader/ios"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  file_picker: 3e6c3790de664ccf9b882732d9db5eaf6b8d4eb1
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_uploader: 7957e1b9d6516b6cccc37e5ffd6c5a0975a7cc4c
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SwiftyGif: dec758a9dd3d278e5a855dbf279bf062c923c387
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.10.1
